@@ -44,10 +44,8 @@ for(let member of team){
   let card = `
   <div class="col-4">
     <img src="${member.immagine}" alt="">
-    <img src="${member.immagine}" alt="">
-    <img src="${member.immagine}" alt="">
-    <img src="${member.immagine}" alt="">
-    <img src="${member.immagine}" alt="">
-    <img src="${member.immagine}" alt=""> 
+  </div>
   `
+  row.innerHTML += card
 }
+
