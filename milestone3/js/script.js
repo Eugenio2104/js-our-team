@@ -42,7 +42,7 @@ const team = [
 for(let member of team){
   console.log(member);
   let card = `
-  <div class="col-4">
+  <div class="col-4 text-center d-flex justify-content-center">
     <div class="card" style="width: 18rem;">
       <img src="${member.immagine}" alt="">
       <div class="card-body">
