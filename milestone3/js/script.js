@@ -46,8 +46,8 @@ for(let member of team){
     <div class="card" style="width: 18rem;">
       <img src="${member.immagine}" alt="">
       <div class="card-body">
-        <h2 id="name"></h2>
-        <p id="role"></p>
+        <h2 id="name">${member.name}</h2>
+        <p id="role">${member.role}</p>
       </div>
     </div>
   </div>
