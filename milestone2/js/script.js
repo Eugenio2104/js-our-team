@@ -47,5 +47,5 @@ for(let member of team){
   </div>
   `
   row.innerHTML += card
-}
+};
 
