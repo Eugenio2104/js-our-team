@@ -1,9 +1,9 @@
-// **MILESTONE 2:**
-// Stampare le stesse informazioni su DOM sotto forma di stringhe
+// **MILESTONE 3:**
+// Stampare delle card formattate contenete immagini e testo (La grafica fornita è solo un esempio ma sentitevi liberi di “graficare” come preferite)
 
-
-const row = document.querySelector(".row")
-
+const row = document.querySelector(".row");
+const namePerson = document.getElementById("name");
+const rolePerson = document.getElementById("role");
 
 const team = [
   {
@@ -43,7 +43,13 @@ for(let member of team){
   console.log(member);
   let card = `
   <div class="col-4">
-    <img src="${member.immagine}" alt="">
+    <div class="card" style="width: 18rem;">
+      <img src="${member.immagine}" alt="">
+      <div class="card-body">
+        <h2 id="name"></h2>
+        <p id="role"></p>
+      </div>
+    </div>
   </div>
   `
   row.innerHTML += card
