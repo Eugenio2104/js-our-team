@@ -1,0 +1,27 @@
+body{
+  background-color: rgba(0, 0, 255, 0.45);
+}
+.container{
+  height: 100vh;
+}
+
+.card{
+  background-color: rgba(95, 158, 160, 0.557);
+  color: white;
+}
+
+.card{
+  filter: grayscale(.5);
+}
+
+.card:hover{
+  transform: scale(1.1);
+  filter: none;
+  transition: 1s;
+  border-radius: 20px;
+}
+
+img:hover{
+  border-radius: 20px;
+  transition: 1s;
+}
